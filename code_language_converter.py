@@ -100,7 +100,7 @@ class APP(CTk):
         showerror(title="Encountered an error", message=error)
 
     def convert(self, code_to_convert, convert_from, convert_to):
-        openai.api_key = ("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")
+        openai.api_key = ("OPEN_API_KEY")
         try:
             response = openai.Completion.create(
                 model="code-davinci-002",
